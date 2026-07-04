@@ -1,7 +1,6 @@
 "use client";
 
-import { ArrowRight, Database, Globe, Layers, Server, Shield, ExternalLink, Briefcase, Users, Cpu } from "lucide-react";
-import { Github } from "@/components/icons";
+import { Shield, ExternalLink, Briefcase, Users, Cpu } from "lucide-react";
 
 export function HireVault() {
   return (

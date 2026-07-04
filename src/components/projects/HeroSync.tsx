@@ -1,6 +1,6 @@
 "use client";
 
-import { Box, Cpu, ExternalLink, Network, Sparkles, Server, Layout, MessageSquare } from "lucide-react";
+import { Cpu, ExternalLink, Network, Sparkles, Server, Layout, MessageSquare } from "lucide-react";
 import { Github } from "@/components/icons";
 
 export function HeroSync() {

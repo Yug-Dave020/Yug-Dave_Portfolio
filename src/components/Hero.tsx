@@ -1,7 +1,7 @@
 "use client";
 
 import { motion } from "framer-motion";
-import { Mail, Bot, Container, Sparkles } from "lucide-react";
+import { Mail, Sparkles } from "lucide-react";
 import Image from "next/image";
 import { Github, Linkedin } from "@/components/icons";
 
