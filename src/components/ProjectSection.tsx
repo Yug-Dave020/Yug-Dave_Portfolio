@@ -14,7 +14,7 @@ export function ProjectSection() {
         transition={{ duration: 0.5 }}
         className="mb-16"
       >
-        <h2 className="text-4xl font-bold text-white mb-4">Selected Work</h2>
+        <h2 className="text-4xl font-bold text-white mb-4">Selected Projects</h2>
         <p className="text-zinc-400 text-lg max-w-2xl">
           Deep dives into the architecture and technical challenges of my flagship projects.
         </p>

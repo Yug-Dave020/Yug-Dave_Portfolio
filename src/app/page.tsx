@@ -12,8 +12,8 @@ export default function Home() {
       <Hero />
       
       <div className="relative">
-        <ProjectSection />
         <About />
+        <ProjectSection />
         <Experience />
       </div>
       

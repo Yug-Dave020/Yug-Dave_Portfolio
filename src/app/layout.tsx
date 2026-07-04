@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Inter, Roboto_Mono } from "next/font/google";
 import "./globals.css";
+import { ContentProtection } from "@/components/ContentProtection";
 
 const inter = Inter({
   subsets: ["latin"],
@@ -27,6 +28,7 @@ export default function RootLayout({
       <body
         className={`${inter.variable} ${robotoMono.variable} font-sans antialiased bg-background text-foreground min-h-screen selection:bg-accent/30`}
       >
+        <ContentProtection />
         {children}
       </body>
     </html>

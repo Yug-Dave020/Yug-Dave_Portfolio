@@ -5,6 +5,14 @@ import { FileText } from "lucide-react";
 import Link from "next/link";
 
 export function Navigation() {
+  const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
+    e.preventDefault();
+    const element = document.getElementById(id);
+    if (element) {
+      element.scrollIntoView({ behavior: 'smooth' });
+    }
+  };
+
   return (
     <motion.nav
       initial={{ y: -20, opacity: 0 }}
@@ -16,10 +24,11 @@ export function Navigation() {
       </div>
 
       <div className="hidden md:flex items-center gap-2 bg-zinc-900/50 border border-white/5 rounded-full px-4 py-2 backdrop-blur-md">
-        <Link href="#home" className="text-accent text-sm font-medium px-4 py-1">Home</Link>
-        <Link href="#about" className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1">About</Link>
-        <Link href="#experience" className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1">Experience</Link>
-        <Link href="#contact" className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1">Connect</Link>
+        <a href="#home" onClick={(e) => handleScroll(e, 'home')} className="text-accent text-sm font-medium px-4 py-1 cursor-pointer">Home</a>
+        <a href="#about" onClick={(e) => handleScroll(e, 'about')} className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1 cursor-pointer">About</a>
+        <a href="#projects" onClick={(e) => handleScroll(e, 'projects')} className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1 cursor-pointer">Projects</a>
+        <a href="#experience" onClick={(e) => handleScroll(e, 'experience')} className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1 cursor-pointer">Experience</a>
+        <a href="#contact" onClick={(e) => handleScroll(e, 'contact')} className="text-zinc-400 hover:text-white transition-colors text-sm font-medium px-4 py-1 cursor-pointer">Connect</a>
       </div>
 
       <div>

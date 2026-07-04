@@ -17,70 +17,43 @@ export function About() {
           <h2 className="text-4xl font-bold text-white tracking-tight">About</h2>
         </div>
         
-        <div className="space-y-12 text-lg text-zinc-300 leading-relaxed font-sans">
+        <div className="space-y-8 text-lg text-zinc-300 leading-relaxed font-sans">
           
-          {/* Intro Section */}
           <div>
-            <p className="text-sm font-bold text-accent tracking-widest uppercase mb-4">
-              AI Systems Engineer | Full-Stack Developer | Digital Transformation
+            <p className="text-sm font-bold text-accent tracking-widest uppercase mb-3">
+              Full-Stack AI Engineer | Digital Transformation
             </p>
             <p className="mb-4 text-white text-xl md:text-2xl font-medium tracking-tight">
-              I don&apos;t just build software; I build systems that evolve.
+              I build resilient software and AI-driven ecosystems.
             </p>
             <p>
-              Currently pursuing my M.Sc. in Digital Transformation at FH Dortmund, my work centers on the belief that modern engineering requires a deep understanding of how AI-driven ecosystems impact enterprise value.
+              Currently pursuing my M.Sc. in Digital Transformation at FH Dortmund, my engineering philosophy is grounded in real-world business impact. Drawing from my experience in the high-stakes pharmaceutical supply chain at Sanacorp, I understand that robust infrastructure and context-aware AI must go hand-in-hand to solve complex enterprise problems.
             </p>
           </div>
 
-          {/* Philosophy Section */}
-          <div>
-            <h3 className="flex items-center gap-2 text-sm font-bold text-white tracking-widest uppercase mb-4">
-              <span className="text-accent font-mono">{'>>'}</span> My Engineering Philosophy
-            </h3>
-            <p className="mb-4">
-              I move beyond simple API integrations to architect robust, context-aware AI solutions. Whether it&apos;s backend logic, cloud infrastructure, or LLM implementation, I focus on software that is:
-            </p>
-            <ul className="space-y-2 ml-6 list-[square] text-accent marker:text-accent">
-              <li><span className="text-zinc-300 font-medium">RESILIENT</span></li>
-              <li><span className="text-zinc-300 font-medium">MODULAR</span></li>
-              <li><span className="text-zinc-300 font-medium">PURPOSE-BUILT FOR THE LONG TERM</span></li>
-            </ul>
-          </div>
-
-          {/* Beyond the Code */}
-          <div>
-            <h3 className="flex items-center gap-2 text-sm font-bold text-white tracking-widest uppercase mb-4">
-              <span className="text-accent font-mono">{'>>'}</span> Beyond the Code
-            </h3>
-            <p>
-              My perspective is grounded in the high-stakes pharmaceutical supply chain at Sanacorp. I understand that behind every line of code is a business process that must remain uninterrupted.
-            </p>
-          </div>
-
-          {/* Core Technical Focus */}
-          <div>
-            <h3 className="flex items-center gap-2 text-sm font-bold text-white tracking-widest uppercase mb-4">
-              <span className="text-accent font-mono">{'>>'}</span> Core Technical Focus
-            </h3>
-            <ul className="space-y-3 ml-6 list-[square] text-accent marker:text-accent">
-              <li><strong className="text-white uppercase">Software:</strong> <span className="text-zinc-300">Full-Stack engineering</span></li>
-              <li><strong className="text-white uppercase">AI Systems:</strong> <span className="text-zinc-300">Advanced AI Architectures & LLM Deployment</span></li>
-              <li><strong className="text-white uppercase">Infrastructure:</strong> <span className="text-zinc-300">Docker & Modern CI/CD Pipelines</span></li>
-              <li><strong className="text-white uppercase">Strategy:</strong> <span className="text-zinc-300">Digital Transformation Frameworks</span></li>
-            </ul>
-          </div>
-
-          {/* Call to Action */}
-          <div className="pt-8 border-t border-white/10">
-            <h3 className="text-sm font-bold text-white tracking-widest uppercase mb-3">
-              Let&apos;s build something that lasts.
-            </h3>
-            <p className="mb-4 text-base">
-              Whether you&apos;re navigating a digital transformation or architecting a custom AI ecosystem, let&apos;s connect.
-            </p>
-            <p className="text-base text-accent font-medium">
-              Reach out via LinkedIn DM or <a href="mailto:daveyug2002@gmail.com" className="hover:underline hover:text-white transition-colors">daveyug2002@gmail.com</a>
-            </p>
+          <div className="grid md:grid-cols-2 gap-8 pt-8 border-t border-white/10">
+            <div>
+              <h3 className="text-sm font-bold text-white tracking-widest uppercase mb-4 flex items-center gap-2">
+                <span className="text-accent font-mono">{'>>'}</span> Core Expertise
+              </h3>
+              <ul className="space-y-2 text-zinc-400 text-base">
+                <li><strong className="text-white">Full-Stack:</strong> React, Next.js, Java, Spring Boot</li>
+                <li><strong className="text-white">AI Systems:</strong> LLM Integration, RAG, AI Agents</li>
+                <li><strong className="text-white">Infrastructure:</strong> Docker, Nginx, CI/CD</li>
+              </ul>
+            </div>
+            <div>
+              <h3 className="text-sm font-bold text-white tracking-widest uppercase mb-4 flex items-center gap-2">
+                <span className="text-accent font-mono">{'>>'}</span> Let's Connect
+              </h3>
+              <p className="mb-3 text-base text-zinc-400">
+                Whether you're scaling an AI product or modernizing legacy systems, I'm open to discussing new opportunities.
+              </p>
+              <div className="flex flex-col gap-1 text-base text-accent font-medium">
+                <a href="mailto:daveyug2002@gmail.com" className="hover:underline hover:text-white transition-colors w-fit">daveyug2002@gmail.com</a>
+                <a href="https://www.linkedin.com/in/yug-dave020" target="_blank" rel="noopener noreferrer" className="hover:underline hover:text-white transition-colors w-fit">linkedin.com/in/yug-dave020</a>
+              </div>
+            </div>
           </div>
 
         </div>

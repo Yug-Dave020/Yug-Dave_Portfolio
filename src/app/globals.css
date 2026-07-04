@@ -12,6 +12,14 @@ body {
   background: #100f0f;
   background-attachment: fixed;
   min-height: 100vh;
+  /* Content Protection */
+  user-select: none;
+  -webkit-user-select: none;
+}
+
+img, video {
+  /* Prevent dragging and interaction on media */
+  -webkit-user-drag: none;
 }
 
 html {
