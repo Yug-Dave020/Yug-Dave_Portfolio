@@ -44,10 +44,10 @@ export function About() {
             </div>
             <div>
               <h3 className="text-sm font-bold text-white tracking-widest uppercase mb-4 flex items-center gap-2">
-                <span className="text-accent font-mono">{'>>'}</span> Let's Connect
+                <span className="text-accent font-mono">{'>>'}</span> Let&apos;s Connect
               </h3>
               <p className="mb-3 text-base text-zinc-400">
-                Whether you're scaling an AI product or modernizing legacy systems, I'm open to discussing new opportunities.
+                Whether you&apos;re scaling an AI product or modernizing legacy systems, I&apos;m open to discussing new opportunities.
               </p>
               <div className="flex flex-col gap-1 text-base text-accent font-medium">
                 <a href="mailto:daveyug2002@gmail.com" className="hover:underline hover:text-white transition-colors w-fit">daveyug2002@gmail.com</a>

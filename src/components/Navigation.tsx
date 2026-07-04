@@ -2,7 +2,6 @@
 
 import { motion } from "framer-motion";
 import { FileText } from "lucide-react";
-import Link from "next/link";
 
 export function Navigation() {
   const handleScroll = (e: React.MouseEvent<HTMLAnchorElement>, id: string) => {
