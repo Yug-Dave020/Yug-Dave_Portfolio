@@ -2,6 +2,7 @@
 
 import { useState } from "react";
 import { Shield, ExternalLink, Briefcase, Users, Cpu, ChevronLeft, ChevronRight } from "lucide-react";
+import { Github } from "@/components/icons";
 
 export function HireVault() {
   const images = [
@@ -156,9 +157,13 @@ export function HireVault() {
 
 
         <div className="flex flex-col sm:flex-row gap-4 pt-6 border-t border-white/10">
-          <a href="https://github.com/Yug-Dave020/HireVault" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-brand-dark bg-accent hover:bg-accent/90 rounded-lg transition-all">
+          <a href="https://github.com/Yug-Dave020/HireVault" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-zinc-300 bg-white/5 hover:bg-white/10 border border-white/10 rounded-lg transition-all">
+            <Github className="w-4 h-4" />
+            View Repository
+          </a>
+          <a href="https://hire-vault-web.vercel.app/" target="_blank" rel="noopener noreferrer" className="flex items-center justify-center gap-2 px-6 py-3 text-sm font-bold text-brand-dark bg-accent hover:bg-accent/90 rounded-lg transition-all">
             <ExternalLink className="w-4 h-4" />
-            View Repository / Live Demo
+            Live Demo
           </a>
         </div>
 
