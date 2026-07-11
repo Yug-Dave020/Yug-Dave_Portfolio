@@ -32,8 +32,9 @@ export function Navigation() {
 
       <div>
         <a
-          href="/resume.pdf"
+          href="/Yug_Dave_CV.pdf"
           target="_blank"
+          download="Yug_Dave_CV.pdf"
           className="flex items-center gap-2 bg-zinc-900/50 border border-white/10 hover:border-white/20 transition-all rounded-full px-5 py-2.5 backdrop-blur-md text-white font-medium text-sm"
         >
           <FileText className="w-4 h-4" />
