@@ -11,8 +11,8 @@ const experiences = [
     duration: "Jun 2025 - Present",
     location: "Düsseldorf, North Rhine-Westphalia, Germany · On-site",
     description:
-      "Analysing and optimising operational workflows in one of Germany's largest pharmaceutical logistics operations, with direct exposure to ERP systems, inventory management platforms, and mission-critical systems.",
-    skills: ["Enterprise Resource Planning (ERP)", "Process Analysis", "Workflow Optimization", "Data Analysis"],
+      "Addressed operational bottlenecks in complex enterprise inventory management by mapping mission-critical pharmaceutical supply chain workflows. Delivered documented process optimizations that actively informed backend architecture decisions for high-availability logistics systems.",
+    skills: ["Enterprise Resource Planning (ERP)", "Process Optimization", "High-Availability Systems", "Workflow Analysis"],
   },
   {
     title: "Software Engineer Intern",
@@ -21,8 +21,8 @@ const experiences = [
     duration: "Dec 2023 - Apr 2024",
     location: "Vadodara, Gujarat, India · On-site",
     description:
-      "Designed and developed an Automated Vehicle Calculation Dictionary — an internal web tool used by L&T engineers to access and execute specialized calculations required in automated vehicle development.",
-    skills: ["React.js", "Software Development", "Frontend Engineering", "API Integration"],
+      "Replaced error-prone, manual spreadsheet workflows by engineering a centralized Automated Vehicle Calculation Dictionary using a React.js frontend and a Python/Node.js REST API layer. This streamlined specialized calculations, significantly increasing engineering efficiency and data accuracy across development teams.",
+    skills: ["React.js", "Node.js", "Python (Flask)", "REST APIs", "Agile/Scrum"],
   },
   {
     title: "Software Engineer Intern",
@@ -31,8 +31,8 @@ const experiences = [
     duration: "May 2023 - Jun 2023",
     location: "Vadodara, Gujarat, India · On-site",
     description:
-      "Designed and developed a fully functional Online Library Management System for CHARUSAT University — enabling students to issue books digitally and giving librarians a centralized platform to manage records.",
-    skills: ["ASP.NET MVC", "ASP.NET", "C#", "SQL Server"],
+      "Digitized inefficient physical record-keeping by developing a full-stack Online Library Management System using ASP.NET MVC and MSSQL. This centralized database management and role-based access control vastly reduced administrative overhead for university librarians and students.",
+    skills: ["ASP.NET MVC", "MSSQL", "C#", "Role-Based Authentication", "Database Design"],
   },
   {
     title: "Full-Stack Developer Intern",
@@ -41,8 +41,8 @@ const experiences = [
     duration: "May 2022 - Jun 2022",
     location: "Vadodara, Gujarat, India · On-site",
     description:
-      "Built an Online Bus Reservation Portal from scratch — a full-stack web application allowing users to browse routes, reserve seats, and complete payments, with automated PDF bill generation upon booking.",
-    skills: ["Project Management", "ASP.NET MVC", "C#", "Web Development"],
+      "Modernized regional ticket booking by building a full-stack Online Bus Reservation Portal with dynamic JavaScript/AJAX seat selection. Enabled secure digital seat reservations and engineered backend PDF rendering for seamless automated receipt generation.",
+    skills: ["JavaScript", "AJAX", "Full-Stack Web Development", "HTML/CSS", "PDF Generation"],
   },
 ];
 
@@ -80,9 +80,9 @@ export function Experience() {
 
               <div className="text-sm text-zinc-500 mb-4">{exp.location}</div>
 
-              <p className="text-zinc-400 leading-relaxed mb-6">
+              <div className="leading-relaxed mb-6">
                 {exp.description}
-              </p>
+              </div>
 
               <div className="flex flex-wrap gap-2">
                 {exp.skills.map((skill, sIndex) => (

@@ -6,7 +6,7 @@ Personal portfolio of **Yug Dave**, an AI Systems Engineer and Full-Stack Develo
 This repository contains the source code for my interactive portfolio website. It highlights my core engineering philosophy, my professional experience (including work in pharmaceutical logistics and enterprise tool development), and deep dives into major technical projects.
 
 ### Featured Projects
-- **HireVault**: A full-stack, AI-native ecosystem bridging the gap between candidates and hiring managers (Next.js, FastAPI, WebSockets, Supabase, Groq).
+- **HireVault**: A full-stack, AI-native ecosystem bridging the gap between candidates and hiring managers (Next.js, FastAPI, WebSockets, Supabase, LLM Orchestration).
 - **HeroSync**: An AI-driven gamification platform for habit tracking (Spring Boot, Vue 3, GraphQL, Docker).
 
 ## Tech Stack
